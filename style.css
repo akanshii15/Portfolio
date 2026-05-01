@@ -1253,9 +1253,19 @@ body {
   .project-node { width: 110px; padding: 12px 8px; }
   .project-node-name { font-size: 0.72rem; }
   .modal-content { padding: 28px; }
-  .contact-card { padding: 28px; }
-  .main-nav { padding: 10px 20px; gap: 16px; }
-  .nav-link { font-size: 0.78rem; padding: 5px 10px; }
+  .contact-card, .chatbot-card { padding: 28px; }
+  .contact-split-layout { grid-template-columns: 1fr; gap: 30px; }
+  .main-nav { 
+    padding: 10px 15px; 
+    gap: 12px; 
+    width: 95%; 
+    max-width: 100%; 
+    overflow-x: auto; 
+    justify-content: flex-start; 
+    -webkit-overflow-scrolling: touch; 
+  }
+  .main-nav::-webkit-scrollbar { display: none; }
+  .nav-link { font-size: 0.78rem; padding: 5px 10px; white-space: nowrap; }
   .section-title { font-size: 1.8rem; }
 }
 
