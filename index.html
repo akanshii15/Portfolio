@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akanshi Singh — Systems + AI Engineer</title>
+  <meta name="description" content="Portfolio of Akanshi Singh — Systems and AI Engineer building intelligent systems that think, speak, and interact." />
+  <meta name="keywords" content="Akanshi Singh, AI Engineer, Systems Engineer, Portfolio, Full Stack Developer" />
+  <meta name="author" content="Akanshi Singh" />
+  <meta property="og:title" content="Akanshi Singh — Systems + AI Engineer" />
+  <meta property="og:description" content="Building intelligent systems that think, speak, and interact." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=12" />
+</head>
+<body>
+  <!-- THREE.JS GALAXY CANVAS -->
+  <canvas id="galaxy-canvas"></canvas>
+
+  <!-- ═══════════════════ LANDING SCREEN ═══════════════════ -->
+  <section id="landing" class="landing">
+    <div class="landing-card glass-panel">
+      <div class="landing-glow"></div>
+      <p class="landing-greeting">Hello, I’m</p>
+      <h1 class="landing-name">Akanshi Singh</h1>
+      <p class="landing-title">Developer | Exploring AI &amp; Systems</p>
+      <p class="landing-sub">Building interactive projects and learning how real systems work.</p>
+      <button id="enter-btn" class="enter-btn" aria-label="Enter Portfolio">
+        <span class="enter-btn-text">Enter</span>
+        <span class="enter-btn-arrow">→</span>
+      </button>
+    </div>
+    <div class="scroll-hint" aria-hidden="true">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ MAIN EXPERIENCE ═══════════════════ -->
+  <main id="main-experience" class="main-experience hidden">
+
+    <!-- NAV -->
+    <nav id="main-nav" class="main-nav glass-panel">
+      <span class="nav-logo">AS</span>
+      <div class="nav-links">
+        <a href="#about-section" class="nav-link" data-section="about">About</a>
+        <a href="#projects-section" class="nav-link" data-section="projects">Projects</a>
+        <a href="#learning-section" class="nav-link" data-section="learning">Evolution</a>
+        <a href="#resume-section" class="nav-link" data-section="resume">Resume</a>
+        <a href="#contact-section" class="nav-link" data-section="contact">Contact</a>
+      </div>
+    </nav>
+
+    <!-- ABOUT ME -->
+    <section id="about-section" class="section about-section">
+      <div class="about-container glass-panel">
+        <div class="about-content">
+          <h2 class="about-heading">Hi, I’m Akanshi.</h2>
+          <p class="about-main-text">I enjoy building systems that actually do something — not just static apps.</p>
+          
+          <div class="about-body">
+            <p>Most of my work revolves around <span class="keyword-glow">real-time interactions</span>, <span class="keyword-glow">structured problem-solving</span>, and exploring how software can respond dynamically to users. I’ve worked on projects like a real-time voice conversation system, a synchronized productivity tool using WebRTC, and a decision-based AI assistant.</p>
+            
+            <p>Right now, I’m focused on strengthening my fundamentals in <span class="keyword-glow">data structures</span>, <span class="keyword-glow">cloud computing</span>, and <span class="keyword-glow">DevOps</span>, while continuing to build projects that push me into more system-level thinking.</p>
+            
+            <p style="margin-top: 10px; font-weight: 500; color: var(--text-primary);">I’m still learning — but I like working on things that feel a little beyond my current level.</p>
+          </div>
+          
+          <div class="about-socials">
+            <a href="https://github.com/akanshii15" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://linkedin.com/in/akanshii15" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="about-visual">
+          <div class="neural-sphere">
+            <div class="core-glow"></div>
+            <div class="particle-ring ring-1"></div>
+            <div class="particle-ring ring-2"></div>
+            <div class="particle-ring ring-3"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORBITAL PROJECTS -->
+    <section id="projects-section" class="section projects-section">
+      <h2 class="section-title">
+        <span class="section-title-accent">⬡</span> Project Galaxy
+      </h2>
+      <p class="section-subtitle">Scroll to rotate the orbital system · Click a node to explore</p>
+      <div id="orbit-system" class="orbit-system">
+        <div class="orbit-ring orbit-ring-1"></div>
+        <div class="orbit-ring orbit-ring-2"></div>
+        <div class="orbit-ring orbit-ring-3"></div>
+        <!-- Project nodes injected by JS -->
+      </div>
+    </section>
+
+    <!-- PROJECT MODAL -->
+    <div id="project-modal" class="project-modal hidden" role="dialog" aria-modal="true">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content glass-panel">
+        <button id="modal-close" class="modal-close" aria-label="Close">&times;</button>
+        <div class="modal-header">
+          <h3 id="modal-title" class="modal-title"></h3>
+          <span id="modal-tag" class="modal-tag hidden">UNDER DEVELOPMENT</span>
+        </div>
+        <p id="modal-desc" class="modal-desc"></p>
+        <div class="modal-section">
+          <h4>Tech Stack</h4>
+          <div id="modal-tech" class="modal-tech"></div>
+        </div>
+        <div class="modal-section">
+          <h4>Key Features</h4>
+          <ul id="modal-features" class="modal-features"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- LEARNING / EVOLUTION SECTION -->
+    <section id="learning-section" class="section learning-section">
+      <div class="learning-container glass-panel">
+        <div class="learning-header-container">
+          <h2 class="section-title">
+            <span class="section-title-accent">⚡</span> System Evolution
+          </h2>
+          <p class="learning-subtitle">Actively building deeper system-level understanding</p>
+        </div>
+        
+        <div class="learning-grid">
+          <!-- MODULE 1 -->
+          <div class="learning-module glass-panel">
+            <div class="module-info">
+              <h4>Data Structures &amp; Algorithms</h4>
+              <span class="module-tag">Strengthening Core Logic</span>
+            </div>
+            <p class="module-desc">Improving problem-solving and optimization skills.</p>
+            <div class="energy-bar-wrap">
+              <div class="energy-bar fill-med"></div>
+            </div>
+          </div>
+
+          <!-- MODULE 2 -->
+          <div class="learning-module glass-panel">
+            <div class="module-info">
+              <h4>Cloud Computing</h4>
+              <span class="module-tag">Exploring Infrastructure</span>
+            </div>
+            <p class="module-desc">Learning scalable systems and deployment architecture.</p>
+            <div class="energy-bar-wrap">
+              <div class="energy-bar fill-low"></div>
+            </div>
+          </div>
+
+          <!-- MODULE 3 -->
+          <div class="learning-module glass-panel">
+            <div class="module-info">
+              <h4>DevOps &amp; Automation</h4>
+              <span class="module-tag">Learning System Automation</span>
+            </div>
+            <p class="module-desc">Exploring CI/CD, deployment workflows, system reliability.</p>
+            <div class="energy-dots-wrap">
+              <div class="energy-dot active"></div>
+              <div class="energy-dot active"></div>
+              <div class="energy-dot"></div>
+              <div class="energy-dot"></div>
+              <div class="energy-dot"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="learning-footer">
+          <p>Goal: Transition from building applications → to engineering scalable, production-grade systems.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume-section" class="section resume-section">
+      <h2 class="section-title">
+        <span class="section-title-accent">◈</span> Resume &amp; Skills
+      </h2>
+      <div class="resume-grid">
+        <div class="resume-card glass-panel">
+          <h3>Languages &amp; Frameworks</h3>
+          <div class="skill-tags" id="skill-tags-lang"></div>
+        </div>
+        <div class="resume-card glass-panel">
+          <h3>AI / ML &amp; Data</h3>
+          <div class="skill-tags" id="skill-tags-ai"></div>
+        </div>
+        <div class="resume-card glass-panel">
+          <h3>Tools &amp; Platforms</h3>
+          <div class="skill-tags" id="skill-tags-tools"></div>
+        </div>
+        <div class="resume-card glass-panel">
+          <h3>Experience Summary</h3>
+          <ul class="experience-list">
+            <li>Architected AI decision-assistant platforms with real-time voice pipelines</li>
+            <li>Built full-stack banking systems with OTP auth, voice assistants, and PDF generation</li>
+            <li>Developed WebRTC video collaboration tools with Pomodoro synchronization</li>
+            <li>Designed real-time voice conversation systems with low-latency STT → LLM → TTS</li>
+            <li>Created enterprise management systems with Java Swing &amp; MySQL backends</li>
+          </ul>
+        </div>
+      </div>
+      <div class="resume-download-wrap">
+        <a href="Akanshi_Singh_Resume.pdf" download="Akanshi_Singh_Resume.pdf" class="download-btn glass-panel" id="download-resume-btn">
+          <span>📄</span> Download Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact-section" class="section contact-section">
+      <h2 class="section-title">
+        <span class="section-title-accent">✦</span> Get In Touch
+      </h2>
+      <div class="contact-split-layout">
+        <!-- LEFT: AI CHATBOT -->
+        <div class="chatbot-card glass-panel">
+          <div class="chatbot-header">
+            <h3>Talk to my AI before reaching out</h3>
+            <p>It knows everything about my work.</p>
+          </div>
+          <div id="chat-messages" class="chat-messages">
+            <div class="message bot-message">
+              <span class="message-text">Hi there! I'm Akanshi's AI assistant. You can ask me about her projects, skills, or experience.</span>
+            </div>
+          </div>
+          <div class="chat-input-area">
+            <input type="text" id="chat-input" placeholder="Ask me anything..." autocomplete="off" />
+            <button id="chat-send-btn" class="chat-send-btn">
+              <span>Send</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- RIGHT: CONTACT FORM -->
+        <div class="contact-card glass-panel">
+          <div class="contact-header-content">
+            <p class="contact-intro">Prefer direct email? Send a message below.</p>
+          </div>
+          <form id="contact-form" onsubmit="sendMail(event)">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required placeholder="Your Name" autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="Your Email" autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="submit-btn" id="contact-submit-btn">
+              <span class="submit-text">Send Message</span>
+            </button>
+          </form>
+          <div id="form-status" class="form-status"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <p>&copy; 2026 Akanshi Singh · Crafted with ☕ and code</p>
+    </footer>
+  </main>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    (function(){
+      emailjs.init("83HgMJ3eIhBHZ-5pb");
+    })();
+  </script>
+  <script src="galaxy.js?v=12"></script>
+  <script src="app.js?v=12"></script>
+</body>
+</html>
